@@ -1,3 +1,10 @@
+# Keep gradle wrapper files
+!gradle/wrapper
+
+# Ignore gradle build files etc,
+.gradle
+build
+
 # Compiled class file
 *.class
 
