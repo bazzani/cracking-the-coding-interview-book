@@ -1,2 +1,5 @@
-# cracking-the-coding-interview-book
-My exercises and code related to the CRACKING the CODING INTERVIEW Book
+# Cracking the Coding Interview Book
+
+My exercises and code related to
+the [CRACKING the CODING INTERVIEW Book](https://www.crackingthecodinginterview.com/contents.html)
+![](https://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/header_images/1435811319.jpg)
