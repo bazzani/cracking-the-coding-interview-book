@@ -40,6 +40,17 @@ class Q1_1_IsUniqueCharsTest {
         assertThat(isUniqueChars).isEqualTo(isUnique);
     }
 
+    @ParameterizedTest
+    @MethodSource("testData")
+    void shouldFindUniqueCharsWithExplanation(String testString, boolean isUnique) {
+        // given
+        // when
+        var isUniqueChars = sut.isUniqueCharsWithExplanation(testString);
+
+        // then
+        assertThat(isUniqueChars).isEqualTo(isUnique);
+    }
+
     private static Stream<Arguments> testData() {
         return Stream.of(
                 of("abcde", true),
